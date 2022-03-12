@@ -1,0 +1,22 @@
+.title {
+  color: var(--primary-clr);
+  text-align: center;
+}
+
+.create-todo-form {
+  display: flex;
+  gap: 0.75em;
+}
+.todo-input,
+.submit-btn {
+  padding: 0.25em 0.75em;
+  border-radius: 0.5em;
+  outline: none;
+  border: none;
+}
+
+.submit-btn {
+  background-color: var(--primary-clr);
+  color: white;
+  font-weight: bold;
+}
